@@ -4,17 +4,35 @@ A secure backend application built with Node.js, Express.js, and MongoDB featuri
 
 ---
 
-## 🚀 Features
+# 🚀 Features
 
-- User Registration & Login
-- Secure Authentication using JWT
-- Cookie-based Token Storage
-- Protected Routes with Middleware
-- Role-based / Custom Authorization
-- Password Hashing using bcrypt
-- Environment Variables Support
-- MongoDB Database Integration
-- RESTful API Structure
+## 🔐 Authentication & Authorization
+
+- User Registration
+- Secure Login
+- JWT Token Generation
+- Token Verification
+- Protected Routes
+- Role-based Access Control
+
+---
+
+## 🍪 Cookie Security
+
+- Token stored in **HTTP-only cookies**
+- Prevents access from client-side JavaScript
+- Better security than localStorage
+
+---
+
+## 🔒 Security Features
+
+- Password hashing using bcryptjs
+- JWT Secret Protection
+- Unauthorized route blocking
+- Middleware-based request validation
+- Environment variables using dotenv
+
 
 ---
 
